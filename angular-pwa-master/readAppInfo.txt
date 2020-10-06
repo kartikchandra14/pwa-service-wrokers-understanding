@@ -1,0 +1,8 @@
+url 
+https://github.com/funOfheuristic/angular-pwa
+
+---------------------- Angular PWA ---------------
+1>> service workers - how they work
+2>> update cache if new data is there 
+3>> push notification in angular PWA
+

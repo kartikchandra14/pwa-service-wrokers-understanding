@@ -1,0 +1,50 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+/angular-pwa-master/package-lock.json
+/push notification backend node for angular pwa/web-push-master/package-lock.json
+/Using vanilla JS service workers fun of heuristic/package-lock.json
+# compiled output
+/angular-pwa-master/dist
+/angular-pwa-master/tmp
+/angular-pwa-master/out-tsc
+# Only exists if Bazel was run
+/angular-pwa-master/bazel-out
+
+# dependencies
+/angular-pwa-master/node_modules
+/push notification backend node for angular pwa/web-push-master/node_modules
+/Using vanilla JS service workers fun of heuristic/node_modules
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
